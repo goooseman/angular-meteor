@@ -39,14 +39,14 @@ Create a `packages` directory and clone from your forked repo
 ```bash
 mkdir packages
 cd packages
-git clone https://github.com/[your_username]/angular-meteor.git my-package
+git clone https://github.com/[your_username]/angular-meteor.git urigo:angular
 ```
 
 Add your local package
 
 ```
 cd ..
-meteor add my-package
+meteor add urigo:angular
 ```
 
 Now you can start using your own copy of the `angular-meteor` project from `myProject`.
